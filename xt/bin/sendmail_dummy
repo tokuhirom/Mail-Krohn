@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+use strict;
+my $fname = $ENV{KROHN_TEST_TMPFILE}
+    or die "Missing 'KROHN_TEST_TMPFILE'";
+open my $fh, '>', $fname
+    or die "$fname: $!";
+while (<STDIN>) {
+    print $fh $_;
+}
+close $fh;
+
+exit 0;
