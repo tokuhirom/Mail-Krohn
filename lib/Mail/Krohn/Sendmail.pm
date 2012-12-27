@@ -90,4 +90,7 @@ You can use mail by B<sendmail(1)> with this module.
 
 This module finds semdmail from $ENV{PATH}. If you want to specify the library path, Please set C<< $Mail::Krohn::Sendmail::SENDMAIL >>
 
+=head1 THANKS TO
+
+Most of the code was taken from L<Email::Send::Sendmail>, thanks RJBS.
 
