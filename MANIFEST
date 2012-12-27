@@ -2,15 +2,21 @@
 Build.PL
 Changes
 lib/Mail/Krohn.pm
+lib/Mail/Krohn/Base.pm
+lib/Mail/Krohn/Sendmail.pm
+lib/Mail/Krohn/Test.pm
+LICENSE
 MANIFEST			This list of files
+META.json
+META.yml
+README
 t/00_compile.t
+t/02_test.t
 xt/01_podspell.t
 xt/02_perlcritic.t
 xt/03_pod.t
 xt/04_minimum_version.t
 xt/05_cpan_meta.t
 xt/06_meta_author.t
-README
-LICENSE
-META.yml
-META.json
+xt/10_sendmail.t
+xt/bin/sendmail_dummy
